@@ -9,7 +9,7 @@ class gamesRoutes {
     }
 
     config() : void {
-        this.router.get('/', (req, res) => res.send('Hola Godzpla'));
+        this.router.get('/', (req, res) => res.send('Games'));
     }
 }
 
