@@ -1,0 +1,3 @@
+Entrar a la carpeta Server
+"npm run dev" en una consola
+"npm run build" en otra consola
