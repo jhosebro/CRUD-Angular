@@ -1,3 +1,7 @@
 Entrar a la carpeta Server
 "npm run dev" en una consola
 "npm run build" en otra consola
+"ng new client --routing" para crear un nuevo cliente de angular para permiitir el enrutamiento
+"ng g c components/nombre del componente" para crear un nuevo componente dentro de un carpeta llamada components
+"ng g s services/nombre del servicio" para crear un nuevo servicio dentro de la carpeta llamada services
+"ng serve" compilar el proyecto de angular
