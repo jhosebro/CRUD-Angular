@@ -1,5 +1,7 @@
 import { Router } from 'express';
 
+import GamesController from '../controllers/gamesController';
+
 class gamesRoutes {
     
     public router : Router = Router();
@@ -9,7 +11,7 @@ class gamesRoutes {
     }
 
     config() : void {
-        this.router.get('/', (req, res) => res.send('Games'));
+        this.router.get('/', GamesController.index );
     }
 }
 
